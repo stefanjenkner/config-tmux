@@ -1,0 +1,3 @@
+[.tmux]
+checkout = git clone 'https://github.com/gpakosz/.tmux.git' '.tmux' && ln -s -f .tmux/.tmux.conf
+push = :
