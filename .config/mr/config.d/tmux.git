@@ -1,3 +1,8 @@
-[.tmux]
-checkout = git clone 'https://github.com/gpakosz/.tmux.git' '.tmux' && ln -s -f .tmux/.tmux.conf
+[.tmux/plugins/tpm]
+checkout = git clone 'https://github.com/tmux-plugins/tpm.git' 'tpm'
 push = :
+
+[.tmux/themes/dracula]
+checkout = git clone 'https://github.com/dracula/tmux.git' 'dracula'
+push = :
+
